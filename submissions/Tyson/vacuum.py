@@ -195,7 +195,7 @@ a = ag.TraceAgent(a)
 loc = v.random_location_inbounds()
 v.add_thing(a, location=loc)
 v.scatter_things(Dirt)
-g = gui.EnvGUI(v, 'Vaccuum')
+g = gui.EnvGUI(v, 'Vacuum')
 c = g.getCanvas()
 c.mapImageNames({
     #ag.Wall: 'images/wall.jpg',
